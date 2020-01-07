@@ -12,8 +12,8 @@ public class TargetCubeDestroyer : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter (Collider other) {
-		if (other.name == "Cylinder") {
+	void OnCollisionEnter (Collision other) {
+		if (other.gameObject.tag == "Blade") {
 			PhotonSwordController attacker = other.transform.parent.parent.GetComponent<PhotonSwordController> ();
 			Vector3 outerProduct = Utility.OuterProduct (attacker.velocity, attacker.direction);
 			GameObject fragment = Instantiate (Fragment, this.transform.position, Quaternion.LookRotation (outerProduct)) as GameObject;
