@@ -6,3 +6,5 @@
   
 [試作2(物体を斬れるようになった)](https://twitter.com/KENRP_SuperDo/status/1196382427121217536?s=20)  
   
+[試作3(シスのダブルブレードセーバーやクロスガードセーバーが使えるようになった)](https://twitter.com/KENRP_SuperDo/status/1215924473250996225?s=20)  
+  

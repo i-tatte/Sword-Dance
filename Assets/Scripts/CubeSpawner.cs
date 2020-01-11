@@ -24,7 +24,7 @@ public class CubeSpawner : MonoBehaviour {
 	void Summon () {
 		GameObject SummonedCube = Instantiate (Cube, this.transform.position, this.transform.rotation) as GameObject;
 		//SummonedCube.GetComponent<Rigidbody> ().velocity = new Vector3 (Random.value - 0.5f, Random.value + 4.5f, Random.value - 0.5f);
-		SummonedCube.GetComponent<Rigidbody> ().useGravity = false;
+		//SummonedCube.GetComponent<Rigidbody> ().useGravity = false;
 		SummonedCube.GetComponent<Rigidbody> ().velocity = new Vector3 ((Random.value - 0.5f) / 1.5f, (Random.value - 0.5f) / 1.5f, -Random.value - 2.5f);
 	}
 }

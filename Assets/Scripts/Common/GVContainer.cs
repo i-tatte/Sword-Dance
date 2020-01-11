@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GVContainer {
+public static class GVContainer {
+	/// <summary>
+	/// 壁のHP。なくなるとゲームオーバー。
+	/// </summary>
+	public static int WallHP = 10;
 	/// <summary>
 	/// 左(青)の光剣の方向ベクタ
 	/// </summary>
