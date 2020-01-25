@@ -11329,7 +11329,7 @@ GameObject:
   - component: {fileID: 5952869885229862253}
   - component: {fileID: 5952869885229862252}
   m_Layer: 0
-  m_Name: Blade Core
+  m_Name: Red Blade Core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

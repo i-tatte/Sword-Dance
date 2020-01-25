@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class TargetCubeDestroyer : MonoBehaviour {
 	public GameObject Fragment;
+	public AudioClip audioClip;
+	OVRHapticsClip hapticsClip;
 	// Start is called before the first frame update
-	void Start () { }
+	void Start () {
+		hapticsClip = new OVRHapticsClip (audioClip);
+	}
 
 	// Update is called once per frame
 	void Update () {
@@ -26,6 +30,12 @@ public class TargetCubeDestroyer : MonoBehaviour {
 					ForceMode.Impulse);
 				fragment2.GetComponent<Rigidbody> ().AddForce (Utility.VectorRoot (-outerProduct + Utility.VectorRoot (attacker.velocity + this.GetComponent<Rigidbody> ().velocity) + this.gameObject.GetComponent<Rigidbody> ().velocity),
 					ForceMode.Impulse);
+
+				if (other.transform.parent.parent.GetComponent<PhotonSwordController> ().isEquipedOnRightHand) {
+					OVRHaptics.RightChannel.Mix (hapticsClip);
+				} else {
+					OVRHaptics.LeftChannel.Mix (hapticsClip);
+				}
 
 				Destroy (this.gameObject);
 			}

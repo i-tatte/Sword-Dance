@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1b9e533ba2b75714f826a09cc1d4638c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,6 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Fragment: {fileID: 4629767745018627742, guid: b7b1bdeeea2e8b14897398d032fe86cc,
     type: 3}
+  audioClip: {fileID: 8300000, guid: d2210fad1c06d7b43ae87bb6797d0e8c, type: 3}
 --- !u!54 &6176076707884823466
 Rigidbody:
   m_ObjectHideFlags: 0

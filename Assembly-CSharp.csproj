@@ -350,6 +350,9 @@
      <Compile Include="Assets\Oculus\VoiceMod\Scripts\Helpers\OVRMicInput.cs" />
      <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceMod.cs" />
      <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
+     <Compile Include="Assets\Scripts\BallAccelerator.cs" />
+     <Compile Include="Assets\Scripts\BladeAnchor.cs" />
+     <Compile Include="Assets\Scripts\Common\ButtonInput.cs" />
      <Compile Include="Assets\Scripts\Common\GVContainer.cs" />
      <Compile Include="Assets\Scripts\Common\Utility.cs" />
      <Compile Include="Assets\Scripts\CubeDetector.cs" />
@@ -358,6 +361,7 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GyroScript.cs" />
      <Compile Include="Assets\Scripts\PhotonSwordController.cs" />
+     <Compile Include="Assets\Scripts\SwordSkillTrigger.cs" />
      <Compile Include="Assets\Scripts\TargetCubeDestroyer.cs" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
      <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />

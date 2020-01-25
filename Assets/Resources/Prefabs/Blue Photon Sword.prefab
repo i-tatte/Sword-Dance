@@ -519,7 +519,7 @@ GameObject:
   - component: {fileID: 89314731651986825}
   - component: {fileID: 89314731651986824}
   m_Layer: 0
-  m_Name: Blade Core
+  m_Name: Blue Blade Core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
