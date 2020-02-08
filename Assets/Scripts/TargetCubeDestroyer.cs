@@ -39,6 +39,8 @@ public class TargetCubeDestroyer : MonoBehaviour {
 
 				Destroy (this.gameObject);
 			}
+		} else if (other.gameObject.tag == "Bullet") {
+
 		}
 	}
 

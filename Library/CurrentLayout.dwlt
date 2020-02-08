@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 448}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 448}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 398}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 67
+  controlID: 68
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 398}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 68
+  controlID: 69
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 340
     height: 635
-  m_MinSize: {x: 277, y: 198}
-  m_MaxSize: {x: 4002, y: 8048}
+  m_MinSize: {x: 277, y: 174}
+  m_MaxSize: {x: 4002, y: 8024}
   vertical: 1
-  controlID: 151
+  controlID: 150
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,7 +264,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 340
-    height: 511
+    height: 383
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
@@ -289,11 +289,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 511
+    y: 383
     width: 340
-    height: 124
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
+    height: 252
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -408,8 +408,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d4fbffff
-      m_LastClickedID: -1068
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: d6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -632,20 +632,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Materials
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Resources/Materials
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\user100\Documents\Unity\workspace\Sword Dance
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 739}
-    m_SelectedIDs: 682e0000
-    m_LastClickedID: 11880
-    m_ExpandedIDs: 00000000b02d0000a42e000088300000de3000008a3100006e320000483300008433000072340000143700006e3900000a3a00008a4900008c490000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: d22d0000
+    m_LastClickedID: 11730
+    m_ExpandedIDs: 00000000d22d0000c62e0000aa30000000310000ac310000903200006a330000a6330000963400003a37000096390000323a00003244000034440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -673,7 +673,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b02d0000a42e0000883000008a3100006e320000483300008433000072340000143700006e3900000a3a00008a4900008c490000
+    m_ExpandedIDs: 00000000d22d0000c62e0000aa30000000310000ac310000903200006a330000a6330000963400003a37000096390000323a00003244000034440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -725,7 +725,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 60}
     m_GridSize: 96
   m_DirectoriesAreaWidth: 165
 --- !u!114 &18
@@ -752,7 +752,7 @@ MonoBehaviour:
     x: 1026
     y: 73
     width: 338
-    height: 491
+    height: 363
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1026
-    y: 584
+    y: 456
     width: 338
-    height: 104
+    height: 232
   m_PersistentViewDataDictionary: {fileID: 0}

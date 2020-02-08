@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 89314730309606741}
   - component: {fileID: 89314730309606742}
   - component: {fileID: 8876435031438492226}
+  - component: {fileID: 4755254094393663104}
   m_Layer: 0
   m_Name: Blue Photon Sword
   m_TagString: Untagged
@@ -150,7 +151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89314730309606740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 1.5}
+  m_LocalPosition: {x: -1, y: 0.5, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 89314731784436357}
@@ -194,6 +195,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
+--- !u!95 &4755254094393663104
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89314730309606740}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 611839f40ba6d4e49af163d14f5e442d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &89314730583375421
 GameObject:
   m_ObjectHideFlags: 0

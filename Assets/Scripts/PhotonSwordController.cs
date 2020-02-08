@@ -9,9 +9,13 @@ public class PhotonSwordController : MonoBehaviour {
 	public Vector3 velocity;
 	public Vector3 direction;
 	Vector3 latestPos;
+	Animator anim;
+	bool isActive = true;
 	//public GameObject PhotonSword;
 	// Start is called before the first frame update
-	void Start () { }
+	void Start () {
+		anim = GetComponent<Animator> ();
+	}
 
 	// Update is called once per frame
 	void Update () {
@@ -19,6 +23,8 @@ public class PhotonSwordController : MonoBehaviour {
 		Move ();
 
 		VectorCalculation ();
+
+		Activate ();
 
 	}
 
@@ -47,4 +53,17 @@ public class PhotonSwordController : MonoBehaviour {
 		velocity = ((blade.position - latestPos) / Time.deltaTime);
 		latestPos = blade.position;
 	}
+
+	void Activate () {
+		if (isActive && OVRInput.GetDown (isEquipedOnRightHand ? OVRInput.RawButton.RThumbstickDown : OVRInput.RawButton.LThumbstickDown)) {
+			//animationしてbladeしまう
+			anim.SetBool ("isActive", false);
+			isActive = false;
+		} else if (!isActive && OVRInput.GetDown (isEquipedOnRightHand ? OVRInput.RawButton.RThumbstickUp : OVRInput.RawButton.LThumbstickUp)) {
+			//animationしてblade出す
+			anim.SetBool ("isActive", true);
+			isActive = true;
+		}
+	}
+
 }

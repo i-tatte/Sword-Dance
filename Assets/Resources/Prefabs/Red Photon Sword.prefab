@@ -10945,6 +10945,7 @@ GameObject:
   - component: {fileID: 5952869883887494577}
   - component: {fileID: 5952869883887494578}
   - component: {fileID: 2922544208748608166}
+  - component: {fileID: 2619831486224811559}
   m_Layer: 0
   m_Name: Red Photon Sword
   m_TagString: Untagged
@@ -11004,6 +11005,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
+--- !u!95 &2619831486224811559
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5952869883887494576}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90fa50fe312a3924d9163e677db58983, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5952869884165474009
 GameObject:
   m_ObjectHideFlags: 0

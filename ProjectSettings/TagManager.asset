@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Blade
   - Cube
+  - Bullet
   layers:
   - Default
   - TransparentFX
