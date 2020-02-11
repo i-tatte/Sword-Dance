@@ -26,4 +26,14 @@ public static class GVContainer {
 	/// 右(赤)の光剣の速度ベクタ
 	/// </summary>
 	public static Vector3 RightSwordVelocity;
+
+	/// <summary>
+	/// 左の光剣の電源状態
+	/// </summary>
+	public static bool IsLeftSwordActive = true;
+
+	/// <summary>
+	/// 右の光剣の電源状態
+	/// </summary>
+	public static bool IsRightSwordActive = true;
 }

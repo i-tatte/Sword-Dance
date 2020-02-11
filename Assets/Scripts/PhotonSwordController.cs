@@ -59,10 +59,20 @@ public class PhotonSwordController : MonoBehaviour {
 			//animationしてbladeしまう
 			anim.SetBool ("isActive", false);
 			isActive = false;
+			if (isEquipedOnRightHand) {
+				GVContainer.IsRightSwordActive = false;
+			} else {
+				GVContainer.IsLeftSwordActive = false;
+			}
 		} else if (!isActive && OVRInput.GetDown (isEquipedOnRightHand ? OVRInput.RawButton.RThumbstickUp : OVRInput.RawButton.LThumbstickUp)) {
 			//animationしてblade出す
 			anim.SetBool ("isActive", true);
 			isActive = true;
+			if (isEquipedOnRightHand) {
+				GVContainer.IsRightSwordActive = true;
+			} else {
+				GVContainer.IsLeftSwordActive = true;
+			}
 		}
 	}
 
