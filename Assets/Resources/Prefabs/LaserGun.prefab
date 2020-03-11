@@ -606,7 +606,7 @@ MonoBehaviour:
   RightHandTracker: {fileID: 0}
   Bullet: {fileID: 3815227907653593650, guid: a7bef8df1c28e9d47b86eac699d7cf27, type: 3}
   ChargeMeter: {fileID: 2866181558847542764}
-  isEquipedOnRightHand: 1
+  isEquipedOnRightHand: 0
   BulletSpeed: 299792450
   ChargedAmount: 1
   charge: 0.01

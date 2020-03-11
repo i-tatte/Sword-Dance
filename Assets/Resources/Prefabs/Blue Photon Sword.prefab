@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 89314729984403820}
   - component: {fileID: 2985371844853630703}
   - component: {fileID: 3768480472946976914}
+  - component: {fileID: 2815104748250726209}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Blade
@@ -88,7 +89,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89314729984403818}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -124,6 +125,19 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2815104748250726209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89314729984403818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94986b9f5713938469e831372e5eebc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 0}
 --- !u!1 &89314730309606740
 GameObject:
   m_ObjectHideFlags: 0

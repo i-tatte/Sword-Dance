@@ -352,7 +352,9 @@
      <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
      <Compile Include="Assets\Scripts\BallAccelerator.cs" />
      <Compile Include="Assets\Scripts\BladeAnchor.cs" />
+     <Compile Include="Assets\Scripts\Common\Cutter.cs" />
      <Compile Include="Assets\Scripts\Common\GVContainer.cs" />
+     <Compile Include="Assets\Scripts\Common\MeshCut.cs" />
      <Compile Include="Assets\Scripts\Common\Utility.cs" />
      <Compile Include="Assets\Scripts\CubeDetector.cs" />
      <Compile Include="Assets\Scripts\CubeSpawner.cs" />
@@ -363,6 +365,10 @@
      <Compile Include="Assets\Scripts\PhotonSwordController.cs" />
      <Compile Include="Assets\Scripts\SwordSkillTrigger.cs" />
      <Compile Include="Assets\Scripts\TargetCubeDestroyer.cs" />
+     <Compile Include="Assets\Scripts\TestScene\Character.cs" />
+     <Compile Include="Assets\Scripts\TestScene\Look.cs" />
+     <Compile Include="Assets\Scripts\TestScene\NotVRCutter.cs" />
+     <Compile Include="Assets\Scripts\TestScene\NotVRPSC.cs" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
      <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />

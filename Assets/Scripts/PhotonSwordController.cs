@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PhotonSwordController : MonoBehaviour {
 	public GameObject LeftHandTracker;
@@ -55,6 +53,7 @@ public class PhotonSwordController : MonoBehaviour {
 	}
 
 	void Activate () {
+		isActive = isEquipedOnRightHand ? GVContainer.IsRightSwordActive : GVContainer.IsLeftSwordActive;
 		if (isActive && OVRInput.GetDown (isEquipedOnRightHand ? OVRInput.RawButton.RThumbstickDown : OVRInput.RawButton.LThumbstickDown)) {
 			//animationしてbladeしまう
 			anim.SetBool ("isActive", false);

@@ -30,10 +30,10 @@ public static class GVContainer {
 	/// <summary>
 	/// 左の光剣の電源状態
 	/// </summary>
-	public static bool IsLeftSwordActive = true;
+	public static bool IsLeftSwordActive = false;
 
 	/// <summary>
 	/// 右の光剣の電源状態
 	/// </summary>
-	public static bool IsRightSwordActive = true;
+	public static bool IsRightSwordActive = false;
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5407997690235411045}
   - component: {fileID: 2512241100586137103}
   - component: {fileID: 6176076707884823466}
+  - component: {fileID: 5229735856440882173}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Cube
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1b9e533ba2b75714f826a09cc1d4638c, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,6 +109,7 @@ MonoBehaviour:
   Fragment: {fileID: 4629767745018627742, guid: b7b1bdeeea2e8b14897398d032fe86cc,
     type: 3}
   audioClip: {fileID: 8300000, guid: d2210fad1c06d7b43ae87bb6797d0e8c, type: 3}
+  HitPoint: 100
 --- !u!54 &6176076707884823466
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -124,3 +126,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &5229735856440882173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945639106657589844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c28ff07acff720478ef0f9d4c7897f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
